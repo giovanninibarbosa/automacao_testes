@@ -9,8 +9,8 @@ import pages.DesafioCadastroPage;
 //@Listeners(TM4JTestNGListener.class)
 public class DesafioAutomacaoTest extends BaseTest {
 
-    String nome = "Aline";
-    String sobrenome = "Zanin";
+    String nome = "Giovannini";
+    String sobrenome = "Barbosa";
     String sugestoes = "colocar o codigo no git";
 
 
