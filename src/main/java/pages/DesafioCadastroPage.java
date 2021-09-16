@@ -77,63 +77,91 @@ public class DesafioCadastroPage extends BasePage {
     public DesafioCadastroPage clicarSexo() {
         sexoRadioButton.click();
         return this;
-    };
+    }
+
+    ;
 
     public DesafioCadastroPage clicarComidaCarne() {
         carne.click();
         return this;
-    };
+    }
+
+    ;
 
     public DesafioCadastroPage clicarComidaFrango() {
         frango.click();
         return this;
-    };
+    }
+
+    ;
 
     public DesafioCadastroPage clicarComidaPizza() {
         pizza.click();
         return this;
-    };
+    }
+
+    ;
 
     public DesafioCadastroPage ClicarComidaVegetariana() {
         vegetariano.click();
         return this;
-    };
+    }
+
+    ;
 
     public DesafioCadastroPage preencherSugestao(String sugestao) {
         sugestaoText.sendKeys(sugestao);
         return this;
-    };
+    }
+
+    ;
 
     public DesafioCadastroPage aceiteAlertVegano() {
         driver.switchTo().alert().accept();
         return this;
-    };
+    }
+
+    ;
 
     public String buscarLabelNome() {
         return LabelNome.getText();
-    };
+    }
+
+    ;
 
     public String buscarLabelSobrenome() {
         return LabelSobrenome.getText();
-    };
+    }
+
+    ;
 
     public String buscarLabelSexo() {
         return LabelSexo.getText();
-    };
+    }
+
+    ;
 
     public String buscarLabelComida() {
         return LabelComida.getText();
-    };
+    }
+
+    ;
 
     public String buscarLabelEscolaridade() {
         return LabelEscolaridade.getText();
-    };
+    }
+
+    ;
 
     public String buscarLabelEsportes() {
         return LabelEsportes.getText();
-    };
+    }
+
+    ;
 
     public String buscarLabelSugestoes() {
         return LabelSugestoes.getText();
-    };
+    }
+
+    ;
 }
