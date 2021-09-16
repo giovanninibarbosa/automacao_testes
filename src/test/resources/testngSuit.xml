@@ -16,10 +16,9 @@
 
     <test name="Regression1">
         <packages>
-            <package name="tests" />
+            <package name="tests"/>
         </packages>
     </test>
-
 
 
 </suite>
