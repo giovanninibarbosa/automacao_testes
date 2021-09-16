@@ -30,12 +30,12 @@ public class DesafioAutomacaoTest extends BaseTest {
                 .ClicarComidaVegetariana()
                 .clicarCadastrar();
 
-        Assert.assertEquals(cp.buscarLabelNome(), "Nome: "+nome);
-        Assert.assertEquals(cp.buscarLabelSobrenome(), "Sobrenome: "+sobrenome);
-        Assert.assertEquals(cp.buscarLabelSexo(), "Sexo: "+"Feminino");
-        Assert.assertEquals(cp.buscarLabelComida(), "Comida: "+"Carne Frango Pizza");
-        Assert.assertEquals(cp.buscarLabelEscolaridade(), "Escolaridade: "+"1grauincomp");
-        Assert.assertEquals(cp.buscarLabelSugestoes(), "Sugestoes: "+"colocar o codigo no git");
+        Assert.assertEquals(cp.buscarLabelNome(), "Nome: " + nome);
+        Assert.assertEquals(cp.buscarLabelSobrenome(), "Sobrenome: " + sobrenome);
+        Assert.assertEquals(cp.buscarLabelSexo(), "Sexo: " + "Feminino");
+        Assert.assertEquals(cp.buscarLabelComida(), "Comida: " + "Carne Frango Pizza");
+        Assert.assertEquals(cp.buscarLabelEscolaridade(), "Escolaridade: " + "1grauincomp");
+        Assert.assertEquals(cp.buscarLabelSugestoes(), "Sugestoes: " + "colocar o codigo no git");
     }
 
 
